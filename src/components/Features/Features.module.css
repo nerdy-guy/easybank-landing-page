@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 6em;
+  padding: 8em 12em;
+  background-color: var(--light-grayish-blue);
+  margin-top: -10em;
+}
+
+.features {
+  display: flex;
+  gap: 3em;
+}
+
+.header {
+  color: var(--dark-blue);
+  font-size: 2.5em;
+  font-weight: var(--fw-regular);
+}
+
+.paragraph {
+  color: var(--grayish-blue);
+  font-size: 1.25em;
+  margin-top: 1em;
+}
+
+.headers {
+  color: var(--dark-blue);
+  font-size: 1.5em;
+  font-weight: var(--fw-regular);
+  margin-top: 1em;
+}
+
+@media screen and (max-width: 48em) {
+  .container {
+    gap: 4em;
+    text-align: center;
+    padding: 0 2em 4em;
+  }
+
+  .icon {
+    margin: 0 auto;
+  }
+
+  .features {
+    flex-direction: column;
+  }
+
+  .header {
+    margin-top: 3em;
+    font-size: 2em;
+  }
+
+  .paragraph {
+    font-size: 1em;
+  }
+
+  .headers {
+    font-size: 1.2em;
+  }
+}
