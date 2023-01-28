@@ -4,7 +4,7 @@ import { footerFirst, footerSecond } from "../../constants/data";
 
 const Footer = () => {
   return (
-    <div className={styles.container}>
+    <footer className={styles.container}>
       <div>
         <a href="#">
           <img src={logo} className={styles.logo} />
@@ -72,7 +72,7 @@ const Footer = () => {
         </a>
         <p className={styles.copy}>&copy; Easybank. All Rights Reserved</p>
       </div>
-    </div>
+    </footer>
   );
 };
 
