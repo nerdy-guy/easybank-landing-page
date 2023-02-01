@@ -3,7 +3,7 @@ import mockup from "../../assets/image-mockups.png";
 
 const Hero = () => {
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <div className={styles.hero}>
         <h1 className={styles.header}>
           Next generation <br /> digital banking
@@ -21,7 +21,7 @@ const Hero = () => {
       </div>
 
       <img src={mockup} alt="" className={styles.mockup} />
-    </div>
+    </section>
   );
 };
 

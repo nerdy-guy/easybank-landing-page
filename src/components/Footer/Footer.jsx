@@ -16,7 +16,7 @@ const Footer = () => {
         </a>
 
         <div className={styles.wrapper}>
-          <ul role="list" aria-label="Social links" className={styles.links}>
+          <ul aria-label="Social links" className={styles.links}>
             <li>
               <a
                 href="#"

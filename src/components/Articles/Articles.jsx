@@ -3,7 +3,7 @@ import styles from "./Articles.module.css";
 
 const Articles = () => {
   return (
-    <div className={styles.container}>
+    <section className={styles.container}>
       <h2 className={styles.header}>Latest Articles</h2>
 
       <div className={styles.articles}>
@@ -21,7 +21,7 @@ const Articles = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
