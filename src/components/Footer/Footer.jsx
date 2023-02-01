@@ -10,7 +10,6 @@ const Footer = () => {
           <img
             src={logo}
             alt="Easybank logo"
-            role="navigation"
             aria-label="Logo"
             className={styles.logo}
           />

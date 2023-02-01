@@ -15,12 +15,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <a href="#">
-        <img
-          src={logo}
-          alt="Easybank logo"
-          role="navigation"
-          aria-label="Logo"
-        />
+        <img src={logo} alt="Easybank logo" aria-label="Logo" />
       </a>
 
       <ul className={styles.links}>
