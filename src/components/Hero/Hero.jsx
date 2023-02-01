@@ -20,7 +20,7 @@ const Hero = () => {
         </a>
       </div>
 
-      <img src={mockup} className={styles.mockup} />
+      <img src={mockup} alt="" className={styles.mockup} />
     </section>
   );
 };

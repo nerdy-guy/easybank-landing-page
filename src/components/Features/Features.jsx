@@ -16,7 +16,7 @@ const Features = () => {
       <div className={styles.features}>
         {features.map((feature) => (
           <div key={feature.id}>
-            <img src={feature.icon} className={styles.icon} />
+            <img src={feature.icon} alt="" className={styles.icon} />
 
             <h3 className={styles.headers}>{feature.title}</h3>
 

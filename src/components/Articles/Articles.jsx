@@ -9,7 +9,7 @@ const Articles = () => {
       <div className={styles.articles}>
         {articles.map((article) => (
           <div className={styles.article} key={article.id}>
-            <img src={article.image} className={styles.images} />
+            <img src={article.image} alt="" className={styles.images} />
 
             <div className={styles.wrapper}>
               <p className={styles.author}>{article.author}</p>

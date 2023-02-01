@@ -15,7 +15,12 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <a href="#">
-        <img src={logo} alt="Easybank logo" />
+        <img
+          src={logo}
+          alt="Easybank logo"
+          role="navigation"
+          aria-label="Logo"
+        />
       </a>
 
       <ul className={styles.links}>
@@ -34,6 +39,7 @@ const Navbar = () => {
 
       <img
         src={toggle ? close : menu}
+        alt={toggle ? "Close" : "Menu"}
         onClick={handleToggle}
         className={styles.toggler}
       />
