@@ -3,7 +3,7 @@ import styles from "./Features.module.css";
 
 const Features = () => {
   return (
-    <section className={styles.container}>
+    <div className={styles.container}>
       <div className={styles.wrapper}>
         <h2 className={styles.header}>Why choose Easybank?</h2>
 
@@ -24,7 +24,7 @@ const Features = () => {
           </div>
         ))}
       </div>
-    </section>
+    </div>
   );
 };
 
